@@ -42,7 +42,7 @@ class MainWindow(QWidget):
 
     def on_button_click(self):
         print("Button clicked")
-        button = app.sender()
+        button = self.sender()
         text = button.text()
 
         if text == "=":
